@@ -6,6 +6,7 @@ export const StyledIndicator = styled.h4`
     font-size: ${props => props.fontSize ? props.fontSize : ''};
     font-weight: ${props => props.fontWeight ? props.fontWeight : ''};
     text-shadow: ${props => props.textShadow ? props.textShadow : ''};
+    color: ${props => props.color ? props.color : ''};
 
     -webkit-transition: all ${props => props.transitionSeconds ? props.transitionSeconds : '0.5s'} ease;
     -moz-transition: all ${props => props.transitionSeconds ? props.transitionSeconds : '0.5s'} ease;

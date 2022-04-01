@@ -1,15 +1,15 @@
 export const theme = {
     colors: {
         primary: {
-            normal: '#1C658C',
+            normal: '#4764e6',
             light: '#398AB9',
             dark: '#145071'
         },
         secondary: {
-            normal: '#D8D2CB'
+            normal: '#f2f4ff'
         },
         accent: {
-            normal: '#D8D2CB'
+            normal: '#4bd6f2'
         },
         gray: {
             normal: '#EEEEEE',
@@ -24,8 +24,5 @@ export const theme = {
     },
     mainContainer: {
         maxWidth: '1600px'
-    },
-    header: {
-        height: '6rem'
     }
 }

@@ -9,6 +9,7 @@ import { theme } from './themes/standard';
 
 
 function App() {
+  
   return (
     <ThemeProvider theme={theme}>
       <>
@@ -17,7 +18,7 @@ function App() {
           <Header />
           <StyledAppContainer 
             gridArea="content" 
-            height="78vh"
+            height="77vh"
             maxWidth="100%">
               <Counter />
           </StyledAppContainer>

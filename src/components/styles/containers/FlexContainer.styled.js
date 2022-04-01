@@ -10,6 +10,8 @@ export const StyledFlexContainer = styled.div`
     width: ${props => props.width ? props.width : ''};
     height: ${props => props.height ? props.height : ''};
     max-width:  ${props => props.maxWidth ? props.maxWidth : ''};
+    background: ${props => props.background ? props.background : ''};
+    color: ${props => props.color ? props.color : ''};
 `
 
 StyledFlexContainer.displayName = 'div';

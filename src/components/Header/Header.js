@@ -1,6 +1,6 @@
 import React from "react";
+import { useTheme } from "styled-components";
 import { StyledFlexContainer } from "../styles/containers/FlexContainer.styled";
-import { StyledHeaderContainer } from "../styles/containers/HeaderContainer.styled";
 import {
   StyledIcon,
   StyledIconTitle,
@@ -8,8 +8,15 @@ import {
 } from "../styles/icons/Icons.styled";
 
 const Header = () => {
+  const theme = useTheme();
+
   return (
-    <StyledHeaderContainer gridArea="navbar" justifyContent="space-between">
+    <StyledFlexContainer 
+      gridArea="navbar" 
+      justifyContent="space-between"
+      background={theme.colors.primary.normal}
+      color={theme.colors.secondary.normal}
+      >
       <StyledFlexContainer
         justifyContent="flex-start"
         verticalPadding="0.4rem"
@@ -41,7 +48,7 @@ const Header = () => {
           rotateDegree="-180deg"
         />
       </StyledIconWrapper>
-    </StyledHeaderContainer>
+    </StyledFlexContainer>
   );
 };
 
