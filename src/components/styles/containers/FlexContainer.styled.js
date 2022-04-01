@@ -6,11 +6,10 @@ export const StyledFlexContainer = styled.div`
     justify-content: ${props => props.justifyContent ? props.justifyContent : 'center'};
     align-items: ${props => props.alignItems ? props.alignItems : 'center'};
     gap: ${props => props.gap ? props.gap : ''};
-    background: ${({theme}) => theme.colors.primary.normal};
-    color: ${({theme}) => theme.colors.white.normal};
     padding: ${props => props.verticalPadding ? props.verticalPadding : ''} ${props => props.horizontalPadding ? props.horizontalPadding : ''};
     width: ${props => props.width ? props.width : ''};
-    height: ${({theme}) => theme.header.height };
+    height: ${props => props.height ? props.height : ''};
+    max-width:  ${props => props.maxWidth ? props.maxWidth : ''};
 `
 
 StyledFlexContainer.displayName = 'div';
