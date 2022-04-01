@@ -1,26 +1,8 @@
 import styled from 'styled-components';
-import { StyledFlexContainer } from '../containers/FlexContainer.styled';
 
 /********************/
 /****** ICON ********/
 /********************/
-
-/* It is optional, but required if an SCALE animation is desired, please
-surround your icon component with this wrapper - Be aware that this is a 
-flex container, because it is intended to wrap an icon as well as a text */
-// export const StyledIconFlexWrapper = styled.div`
-//     margin: ${props => props.verticalMargin ? props.verticalMargin : ''} ${props => props.horizontalMargin ? props.horizontalMargin : ''};
-    
-//     -webkit-transition: all ${props => props.transitionSeconds ? props.transitionSeconds : '0.5s'}  ease;
-//     -moz-transition: all ${props => props.transitionSeconds ? props.transitionSeconds : '0.5s'}  ease;
-//     transition: all ${props => props.transitionSeconds ? props.transitionSeconds : '0.5s'}  ease;
-
-//     &:hover {
-//         transform: scale(${props => props.scaleNumber ? props.scaleNumber : 1.3});
-//     }
-// `
-// StyledIconFlexWrapper.displayName = 'div';
-
 
 
 /* This should be used to wrap only an icon with an effect */

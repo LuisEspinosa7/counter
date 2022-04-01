@@ -1,15 +1,15 @@
 import React from "react";
 import { StyledFlexContainer } from "../styles/containers/FlexContainer.styled";
+import { StyledHeaderContainer } from "../styles/containers/HeaderContainer.styled";
 import {
   StyledIcon,
-  StyledIconFlexWrapper,
   StyledIconTitle,
   StyledIconWrapper,
 } from "../styles/icons/Icons.styled";
 
 const Header = () => {
   return (
-    <StyledFlexContainer gridArea="navbar" justifyContent="space-between">
+    <StyledHeaderContainer gridArea="navbar" justifyContent="space-between">
       <StyledFlexContainer
         justifyContent="flex-start"
         verticalPadding="0.4rem"
@@ -41,7 +41,7 @@ const Header = () => {
           rotateDegree="-180deg"
         />
       </StyledIconWrapper>
-    </StyledFlexContainer>
+    </StyledHeaderContainer>
   );
 };
 
