@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { StyledFlexContainer } from '../containers/FlexContainer.styled';
 
 /********************/
 /****** ICON ********/
@@ -6,11 +7,7 @@ import styled from 'styled-components';
 
 
 /* This should be used to wrap only an icon with an effect */
-export const StyledIconWrapper = styled.div`
-    margin: ${props => props.verticalMargin ? props.verticalMargin : ''} ${props => props.horizontalMargin ? props.horizontalMargin : ''};
-    width: ${props => props.width ? props.width : ''};
-    height: ${props => props.height ? props.height : ''};
-
+export const StyledIconWrapper = styled(StyledFlexContainer)`
     -webkit-transition: all ${props => props.transitionSeconds ? props.transitionSeconds : '0.5s'}  ease;
     -moz-transition: all ${props => props.transitionSeconds ? props.transitionSeconds : '0.5s'}  ease;
     transition: all ${props => props.transitionSeconds ? props.transitionSeconds : '0.5s'}  ease;
@@ -34,6 +31,22 @@ export const StyledIcon = styled.img`
     }
 `
 StyledIcon.displayName = 'img';
+
+
+/*  Useful with FontAwesome icons. Since this support a ROTATE animation, please use this for displaying your icon. */
+export const StyledFontIcon = styled.i`
+    font-size: ${props => props.fontSize ? props.fontSize : ''};
+    -webkit-transition: all ${props => props.transitionSeconds ? props.transitionSeconds : '0.5s'}  ease;
+    -moz-transition: all ${props => props.transitionSeconds ? props.transitionSeconds : '0.5s'}  ease;
+    transition: all ${props => props.transitionSeconds ? props.transitionSeconds : '0.5s'}  ease;
+
+    &:hover {
+        transform: rotate(${props => props.rotateDegree ? props.rotateDegree : '90deg'});
+    }
+`
+StyledIcon.displayName = 'i';
+
+
 
 /* This components is perfect when showing your icon text
 with an effect */

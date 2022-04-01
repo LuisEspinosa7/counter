@@ -2,7 +2,7 @@ import React from "react";
 import { useTheme } from "styled-components";
 import { StyledFlexContainer } from "../styles/containers/FlexContainer.styled";
 import {
-  StyledIcon,
+  StyledFontIcon,
   StyledIconTitle,
   StyledIconWrapper,
 } from "../styles/icons/Icons.styled";
@@ -27,13 +27,15 @@ const Header = () => {
         <StyledIconWrapper
             width="4.25rem"
             height="4.25rem">
-          <StyledIcon src="./images/icon_number_white.svg" />
+          <StyledFontIcon 
+            className="fa-solid fa-hashtag" 
+            fontSize="3.125rem" />
         </StyledIconWrapper>
         <StyledIconTitle
           fontSize="2rem"
           fontWeight="800"
           verticalPadding="0"
-          horizontalPadding="0.8rem"
+          horizontalPadding="0.3rem"
         >
           Counter
         </StyledIconTitle>
@@ -45,10 +47,11 @@ const Header = () => {
         width="3.125rem"
         height="3.125rem"
       >
-        <StyledIcon
-          src="./images/hamburger_icon_white.svg"
+        <StyledFontIcon
+          className="fa-solid fa-bars" 
           rotateDegree="-180deg"
-        />
+          fontSize="3.125rem"/>
+
       </StyledIconWrapper>
     </StyledFlexContainer>
   );

@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { useTheme } from "styled-components";
 import { StyledButton } from "../styles/buttons/Button.styled";
-import { StyledCounterButton } from "../styles/buttons/CounterButton.styled";
 import { StyledFlexContainer } from "../styles/containers/FlexContainer.styled";
 import { StyledGridContainer } from "../styles/containers/GridContainer.styled";
 import { StyledH2Title } from "../styles/typography/H2Title.styled";
@@ -16,9 +15,11 @@ const Counter = () => {
     <StyledGridContainer
       gridTemplateColumns="1fr"
       gridTemplateRows="1fr 1fr 3fr 1.3fr"
-      maxHeight="25rem"
+      maxHeight="26rem"
       width="25rem"
       gridGap="0.5rem"
+      verticalPadding="1rem"
+      horizontalPadding="1rem"
       background={theme.colors.secondary.normal}
       boxShadow="2px 2px 2px 2px rgba(0, 0, 0, 0.3)"
       borderRadius="5px"
