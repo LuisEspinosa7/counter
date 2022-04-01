@@ -9,7 +9,7 @@ export const StyledButton = styled.button`
     color: ${props => props.color ? props.color : ''};
     border-radius: ${props => props.borderRadius ? props.borderRadius : ''};
     box-shadow: ${props => props.boxShadow ? props.boxShadow : ''};
-
+    border: ${props => props.border ? props.border : ''};
 
     -webkit-transition: all ${props => props.transitionSeconds ? props.transitionSeconds : '0.5s'} ease;
     -moz-transition: all ${props => props.transitionSeconds ? props.transitionSeconds : '0.5s'} ease;

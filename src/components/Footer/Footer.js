@@ -8,8 +8,8 @@ const Footer = () => {
 
   return (
     <StyledFlexContainer
-      gridArea="footer" 
-      height="4.375rem"
+      gridArea="" 
+      height="auto"
       background={theme.colors.primary.normal}
       color={theme.colors.secondary.normal}>
       <StyledParagraph

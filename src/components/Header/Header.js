@@ -12,10 +12,12 @@ const Header = () => {
 
   return (
     <StyledFlexContainer 
-      gridArea="navbar" 
+      gridArea="" 
       justifyContent="space-between"
       background={theme.colors.primary.normal}
       color={theme.colors.secondary.normal}
+      boxShadow="rgb(0 0 0 / 24%) 0px 3px 8px"
+      zIndex="10"
       >
       <StyledFlexContainer
         justifyContent="flex-start"
@@ -39,9 +41,9 @@ const Header = () => {
 
       <StyledIconWrapper
         verticalMargin="0"
-        horizontalMargin="0.8rem"
-        width="50px"
-        height="50px"
+        horizontalMargin="1.5rem"
+        width="3.125rem"
+        height="3.125rem"
       >
         <StyledIcon
           src="./images/hamburger_icon_white.svg"

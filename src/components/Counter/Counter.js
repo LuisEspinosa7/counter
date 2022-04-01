@@ -15,7 +15,7 @@ const Counter = () => {
   return (
     <StyledGridContainer
       gridTemplateColumns="1fr"
-      gridTemplateRows="1fr 1fr 2fr 1fr"
+      gridTemplateRows="1fr 1fr 3fr 1.3fr"
       maxHeight="25rem"
       width="25rem"
       gridGap="0.5rem"
@@ -46,8 +46,8 @@ const Counter = () => {
 
       <StyledFlexContainer justifyContent="center" alignItems="center">
         <StyledIndicator
-          fontSize="9rem"
-          fontWeight="300"
+          fontSize="10rem"
+          fontWeight="400"
           textShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
           color={theme.colors.primary.normal}
         >
@@ -59,15 +59,19 @@ const Counter = () => {
         justifyContent="center"
         alignItems="center"
         gap="0.5rem"
+        verticalMargin="0.2rem"
+        horizontalMargin="0"
       >
         <StyledButton
           verticalPadding="0.5rem"
-          horizontalPadding="1.6rem"
-          fontSize="2rem"
-          borderRadius="5px"
-          boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
-          background={theme.colors.primary.normal}
+          horizontalPadding="1.1rem"
+          fontSize="1.7rem"
+          borderRadius="10px"
+          boxShadow="rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;"
+          background={theme.colors.accent.normal}
           color={theme.colors.secondary.normal}
+          border="none"
+          hoverBoxShadow="rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;"
           id="btnIncrement"
           onClick={() => setCounter(counter + 1)}
         >
@@ -75,12 +79,14 @@ const Counter = () => {
         </StyledButton>
         <StyledButton
           verticalPadding="0.5rem"
-          horizontalPadding="1.6rem"
-          fontSize="2rem"
-          borderRadius="5px"
-          boxShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
-          background={theme.colors.primary.normal}
+          horizontalPadding="1.3rem"
+          fontSize="1.7rem"
+          borderRadius="10px"
+          boxShadow="rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;"
+          background={theme.colors.accent.normal}
           color={theme.colors.secondary.normal}
+          border="none"
+          hoverBoxShadow="rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;"
           id="btnDecrement"
           onClick={() => setCounter(counter - 1)}
         >

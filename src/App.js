@@ -17,8 +17,7 @@ function App() {
         <StyledMainContainer>
           <Header />
           <StyledAppContainer 
-            gridArea="content" 
-            height="77vh"
+            gridArea=""
             maxWidth="100%">
               <Counter />
           </StyledAppContainer>
