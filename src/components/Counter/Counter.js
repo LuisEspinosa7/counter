@@ -65,21 +65,6 @@ const Counter = () => {
       >
         <StyledButton
           verticalPadding="0.5rem"
-          horizontalPadding="1.1rem"
-          fontSize="1.7rem"
-          borderRadius="10px"
-          boxShadow="rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;"
-          background={theme.colors.accent.normal}
-          color={theme.colors.secondary.normal}
-          border="none"
-          hoverBoxShadow="rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;"
-          id="btnIncrement"
-          onClick={() => setCounter(counter + 1)}
-        >
-          +
-        </StyledButton>
-        <StyledButton
-          verticalPadding="0.5rem"
           horizontalPadding="1.3rem"
           fontSize="1.7rem"
           borderRadius="10px"
@@ -92,6 +77,21 @@ const Counter = () => {
           onClick={() => setCounter(counter - 1)}
         >
           -
+        </StyledButton>
+        <StyledButton
+          verticalPadding="0.5rem"
+          horizontalPadding="1.1rem"
+          fontSize="1.7rem"
+          borderRadius="10px"
+          boxShadow="rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;"
+          background={theme.colors.accent.normal}
+          color={theme.colors.secondary.normal}
+          border="none"
+          hoverBoxShadow="rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;"
+          id="btnIncrement"
+          onClick={() => setCounter(counter + 1)}
+        >
+          +
         </StyledButton>
       </StyledFlexContainer>
     </StyledGridContainer>
