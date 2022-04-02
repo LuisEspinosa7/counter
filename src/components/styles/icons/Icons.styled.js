@@ -44,7 +44,7 @@ export const StyledFontIcon = styled.i`
         transform: rotate(${props => props.rotateDegree ? props.rotateDegree : '90deg'});
     }
 `
-StyledIcon.displayName = 'i';
+StyledFontIcon.displayName = 'i';
 
 
 

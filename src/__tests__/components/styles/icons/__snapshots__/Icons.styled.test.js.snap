@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Component: StyledFontIcon should render 1`] = `null`;
+
+exports[`Component: StyledIcon should render 1`] = `null`;
+
+exports[`Component: StyledIconTitle should render 1`] = `null`;
+
+exports[`Component: StyledIconWrapper should render 1`] = `null`;
