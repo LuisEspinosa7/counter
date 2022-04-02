@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { useTheme } from "styled-components";
 import { StyledButton } from "../styles/buttons/Button.styled";
+import { StyledCounterContainer } from "../styles/containers/CounterContainer.styled";
 import { StyledFlexContainer } from "../styles/containers/FlexContainer.styled";
-import { StyledGridContainer } from "../styles/containers/GridContainer.styled";
 import { StyledH2Title } from "../styles/typography/H2Title.styled";
 import { StyledIndicator } from "../styles/typography/Indicator.styled";
 import { StyledParagraph } from "../styles/typography/Paragraph.styled";
@@ -12,7 +12,7 @@ const Counter = () => {
   const theme = useTheme();
 
   return (
-    <StyledGridContainer
+    <StyledCounterContainer
       gridTemplateColumns="1fr"
       gridTemplateRows="1fr 1fr 3fr 1.3fr"
       maxHeight="26rem"
@@ -94,7 +94,7 @@ const Counter = () => {
           +
         </StyledButton>
       </StyledFlexContainer>
-    </StyledGridContainer>
+    </StyledCounterContainer>
   );
 };
 
