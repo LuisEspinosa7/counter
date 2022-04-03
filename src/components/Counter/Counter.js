@@ -31,6 +31,7 @@ const Counter = () => {
         fontWeight="600"
         textShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
         color={theme.colors.primary.normal}
+        role="heading"
       >
         Easy Counter
       </StyledH2Title>
@@ -41,6 +42,7 @@ const Counter = () => {
         verticalPadding="1rem"
         horizontalPadding="1rem"
         color={theme.colors.primary.normal}
+        role="contentinfo"
       >
         Count as many numbers as you want, it is easy, quick and free.
       </StyledParagraph>
@@ -51,6 +53,7 @@ const Counter = () => {
           fontWeight="400"
           textShadow="rgba(0, 0, 0, 0.24) 0px 3px 8px"
           color={theme.colors.primary.normal}
+          role="heading"
         >
           {counter}
         </StyledIndicator>
@@ -75,6 +78,7 @@ const Counter = () => {
           hoverBoxShadow="rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;"
           id="btnDecrement"
           onClick={() => setCounter(counter - 1)}
+          role="button"
         >
           -
         </StyledButton>
@@ -90,6 +94,7 @@ const Counter = () => {
           hoverBoxShadow="rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;"
           id="btnIncrement"
           onClick={() => setCounter(counter + 1)}
+          role="button"
         >
           +
         </StyledButton>

@@ -29,13 +29,15 @@ const Header = () => {
             height="4.25rem">
           <StyledFontIcon 
             className="fa-solid fa-hashtag" 
-            fontSize="3.125rem" />
+            fontSize="3.125rem"
+            role="img" />
         </StyledIconWrapper>
         <StyledIconTitle
           fontSize="2rem"
           fontWeight="800"
           verticalPadding="0"
           horizontalPadding="0.3rem"
+          role="heading"
         >
           Counter
         </StyledIconTitle>
@@ -50,7 +52,8 @@ const Header = () => {
         <StyledFontIcon
           className="fa-solid fa-bars" 
           rotateDegree="-180deg"
-          fontSize="3.125rem"/>
+          fontSize="3.125rem"
+          role="img"/>
 
       </StyledIconWrapper>
     </StyledFlexContainer>
