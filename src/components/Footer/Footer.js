@@ -16,6 +16,7 @@ const Footer = () => {
         color={theme.colors.secondary.normal}
         verticalPadding="1rem"
         horizontalPadding="1rem"
+        role="contentinfo"
       >
         @Copyright Luis Espinosa, All rights reserved
       </StyledParagraph>
