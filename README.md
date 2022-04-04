@@ -20,7 +20,7 @@ Some pictures of the project on iPHONE-SE, iPHONE-XR, iPAD-AIR,  iPAD-Mini respe
   		<img width="450" alt="iPHONE-SE" src="https://user-images.githubusercontent.com/56041525/161471265-ce927a36-a8e0-4b93-a034-f77631e96d43.png">
 	  </td>
     <td>
-  	<img width="469" alt="iPHONE-XR" src="https://user-images.githubusercontent.com/56041525/161471636-c4b5aade-772f-4bc7-aa0d-94122a0c64f7.png">
+  	<img width="450" alt="iPHONE-XR" src="https://user-images.githubusercontent.com/56041525/161471636-c4b5aade-772f-4bc7-aa0d-94122a0c64f7.png">
     </td>
   </tr>
 </table>
@@ -29,10 +29,10 @@ Some pictures of the project on iPHONE-SE, iPHONE-XR, iPAD-AIR,  iPAD-Mini respe
 <table style="width:100%">
   <tr>
     <td>
-  		<img width="522" alt="iPAD-AIR" src="https://user-images.githubusercontent.com/56041525/161471672-5c5f3312-ca4d-4c2f-a1c7-d349c3c18fb3.png">
+  		<img width="450" alt="iPAD-AIR" src="https://user-images.githubusercontent.com/56041525/161471672-5c5f3312-ca4d-4c2f-a1c7-d349c3c18fb3.png">
 	  </td>
     <td>
-  	<img width="462" alt="iPAD-MINI" src="https://user-images.githubusercontent.com/56041525/161471692-4fadca29-b200-46cb-9bc7-c13ceb8c2c14.png">
+  	<img width="450" alt="iPAD-MINI" src="https://user-images.githubusercontent.com/56041525/161471692-4fadca29-b200-46cb-9bc7-c13ceb8c2c14.png">
     </td>
   </tr>
 </table>
