@@ -77,8 +77,6 @@ And you should get the following results:
   </tr>
 </table>
 
-Take into account that it was not possible to test the Styled Components since right now the library 'react-test-renderer' has an issue with the create method (method to render and create a virtual dom for the styled component an its variants). So It was not possible to test them out using the library 'jest-styled-components', but maybe in the future.
-
 
 ## Contributing
 This proyect is quite simple, and is part of my personal portfolio, so it is not intended to receive contributions.
