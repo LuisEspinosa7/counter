@@ -1,4 +1,5 @@
 {
+  "homepage": "https://LuisEspinosa7.github.io/counter",
   "name": "counter",
   "version": "0.1.0",
   "private": true,
@@ -14,6 +15,8 @@
     "web-vitals": "^2.1.0"
   },
   "scripts": {
+    "predeploy": "yarn run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -38,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^3.2.3",
     "jest-styled-components": "^7.0.8",
     "react-test-renderer": "^17.0.2"
   }
