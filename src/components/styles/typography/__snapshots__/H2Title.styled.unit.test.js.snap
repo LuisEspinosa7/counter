@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render H2Titlte by default - no props 1`] = `
+<h2
+  className=""
+>
+  Example title
+</h2>
+`;
