@@ -65,13 +65,14 @@ yarn test --coverage --watchAll
 And you should get the following results:
 
 
+
 <table style="width:100%">
   <tr>
     <td>
-  		<img width="589" alt="ReactTestingLibrary" src="https://user-images.githubusercontent.com/56041525/161472227-51b1f9f3-ae7d-471f-ac16-4a5c434e9a79.png">
+  		<img width="705" alt="command" src="https://user-images.githubusercontent.com/56041525/161893026-d87f1301-12ca-4ed0-adb2-77618081b235.png">
 	  </td>
     <td>
-  	<img width="1433" alt="RTL-Coverage" src="https://user-images.githubusercontent.com/56041525/161472242-e0b981f1-a25c-4a1d-8f37-b0a0cd7d03ee.png">
+  	<img width="1432" alt="report" src="https://user-images.githubusercontent.com/56041525/161893047-a7e578ca-9a39-424e-bdcc-15edecc63253.png">
     </td>
   </tr>
 </table>
