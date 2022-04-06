@@ -21,6 +21,7 @@ StyledIconWrapper.displayName = 'div';
 
 
 /*  Since this support a ROTATE animation, please use this for displaying your icon. */
+/*
 export const StyledIcon = styled.img`
     -webkit-transition: all ${props => props.transitionSeconds ? props.transitionSeconds : '0.5s'}  ease;
     -moz-transition: all ${props => props.transitionSeconds ? props.transitionSeconds : '0.5s'}  ease;
@@ -31,6 +32,7 @@ export const StyledIcon = styled.img`
     }
 `
 StyledIcon.displayName = 'img';
+*/
 
 
 /*  Useful with FontAwesome icons. Since this support a ROTATE animation, please use this for displaying your icon. */
@@ -44,7 +46,7 @@ export const StyledFontIcon = styled.i`
         transform: rotate(${props => props.rotateDegree ? props.rotateDegree : '90deg'});
     }
 `
-StyledIcon.displayName = 'i';
+StyledFontIcon.displayName = 'i';
 
 
 
