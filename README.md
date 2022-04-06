@@ -39,7 +39,7 @@ Some pictures of the project on iPHONE-SE, iPHONE-XR, iPAD-AIR,  iPAD-Mini respe
 
 ## Online demo
 Do you want to give it a try? Go on! 
-https://luisespinosa7.github.io/simple-cards/
+https://luisespinosa7.github.io/counter/
 
 ## Installation
 
